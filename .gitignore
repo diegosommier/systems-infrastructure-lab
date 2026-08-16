@@ -1,0 +1,23 @@
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Logs
+*.log
+
+# Credentials and secrets
+.env
+*.key
+*.pem
+*.pfx
+*.p12
