@@ -10,7 +10,15 @@ The project was developed as the final project for a Systems Administration cour
 
 Its objective was to bring together the administration and configuration tasks covered throughout the course into a practical infrastructure environment, using both Linux and Windows systems.
 
-The main Linux environment was built on **CentOS 7** running as a virtual machine in Oracle VM VirtualBox. Additional Windows systems were used to implement domain services and integrate the Linux infrastructure with a Windows domain.
+The main Linux environment was built on **CentOS 7** running as a virtual machine in Oracle VM VirtualBox. A Windows 10 virtual machine and shared classroom infrastructure were used to implement domain services and integrate the Linux environment with a Windows domain.
+
+## Architecture
+
+The project was built around a small virtualized environment connected to the classroom infrastructure.
+
+The student environment consisted of a **CentOS 7 server** and a **Windows 10 workstation**, while shared classroom services provided domain management, monitoring and inventory.
+
+![Systems Infrastructure Lab architecture](./assets/architecture.png)
 
 ## Infrastructure
 
@@ -114,7 +122,7 @@ The Linux system was integrated with:
 
 ## Windows
 
-The project also includes Windows-based infrastructure:
+The project also includes Windows-based infrastructure.
 
 ### Windows 10
 
